@@ -58,8 +58,6 @@
 		EE4A901A0F1E1A17007DE4BF /* Check.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EE4A90190F1E1A17007DE4BF /* Check.pdf */; };
 		EE4A92060F1E83E9007DE4BF /* QuickPreview.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE4A92040F1E83E9007DE4BF /* QuickPreview.xib */; };
 		EE4A92880F1E8EF9007DE4BF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EE4A92870F1E8EF9007DE4BF /* Credits.rtf */; };
-		EE4A93D40F1F8825007DE4BF /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4A93D20F1F8825007DE4BF /* Sparkle.framework */; };
-		EE4A93E90F1F8845007DE4BF /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = EE4A93D20F1F8825007DE4BF /* Sparkle.framework */; };
 		EE5A52C70F222C6400919974 /* StatusItemHelperWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE5A52C50F222C6400919974 /* StatusItemHelperWindow.xib */; };
 		EE5A54690F23DF3C00919974 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = EE5A54680F23DF3C00919974 /* dsa_pub.pem */; };
 		EE6AD12B0F296CF4000C38AC /* OMHStatusItemWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6AD12A0F296CF4000C38AC /* OMHStatusItemWindowController.m */; };
@@ -69,8 +67,10 @@
 		EE71BC0D0F1F88E100F130A9 /* Update.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EE71BC0B0F1F88E100F130A9 /* Update.tiff */; };
 		EE79F8410F9FB03F00010D7E /* Clyppan_DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE79F8400F9FB03F00010D7E /* Clyppan_DataModel.xcdatamodeld */; };
 		EE87B5070FE58ABC0058C68E /* OMHHumanReadableDate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE87B5060FE58ABC0058C68E /* OMHHumanReadableDate.m */; };
-		EE98038D11712C50006A8E08 /* ShortcutRecorder.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = EEE8DB1C103DF29600195ECA /* ShortcutRecorder.framework */; };
-		EEE8DB1D103DF29600195ECA /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE8DB1C103DF29600195ECA /* ShortcutRecorder.framework */; };
+		EE9803F71171304A006A8E08 /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9803CD1171300C006A8E08 /* ShortcutRecorder.framework */; };
+		EE9803F81171304A006A8E08 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9803CF1171300C006A8E08 /* Sparkle.framework */; };
+		EE9804C3117130DA006A8E08 /* ShortcutRecorder.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = EE9803CD1171300C006A8E08 /* ShortcutRecorder.framework */; };
+		EE9804C4117130DA006A8E08 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = EE9803CF1171300C006A8E08 /* Sparkle.framework */; };
 		EEECB6760FAE1454004A596B /* AppController+CoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = EEECB6750FAE1454004A596B /* AppController+CoreData.m */; };
 		EEF4181A0F1D27A80037980E /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF418190F1D27A80037980E /* Carbon.framework */; };
 /* End PBXBuildFile section */
@@ -92,8 +92,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				EE98038D11712C50006A8E08 /* ShortcutRecorder.framework in Copy Frameworks */,
-				EE4A93E90F1F8845007DE4BF /* Sparkle.framework in Copy Frameworks */,
+				EE9804C3117130DA006A8E08 /* ShortcutRecorder.framework in Copy Frameworks */,
+				EE9804C4117130DA006A8E08 /* Sparkle.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,7 +145,6 @@
 		EE4A90190F1E1A17007DE4BF /* Check.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Check.pdf; path = Resources/Check.pdf; sourceTree = SOURCE_ROOT; };
 		EE4A92050F1E83E9007DE4BF /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/QuickPreview.xib; sourceTree = "<group>"; };
 		EE4A92870F1E8EF9007DE4BF /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Credits.rtf; path = Resources/Credits.rtf; sourceTree = SOURCE_ROOT; };
-		EE4A93D20F1F8825007DE4BF /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = Frameworks/Sparkle.framework; sourceTree = SOURCE_ROOT; };
 		EE5A52C60F222C6400919974 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/StatusItemHelperWindow.xib; sourceTree = "<group>"; };
 		EE5A54680F23DF3C00919974 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = Resources/dsa_pub.pem; sourceTree = "<group>"; };
 		EE6AD1290F296CF4000C38AC /* OMHStatusItemWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMHStatusItemWindowController.h; path = Source/OMHStatusItemWindowController.h; sourceTree = "<group>"; };
@@ -158,7 +157,8 @@
 		EE71BC0B0F1F88E100F130A9 /* Update.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Update.tiff; path = "../collections/Resources/Preference Icons/Update.tiff"; sourceTree = SOURCE_ROOT; };
 		EE87B5050FE58ABC0058C68E /* OMHHumanReadableDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMHHumanReadableDate.h; sourceTree = "<group>"; };
 		EE87B5060FE58ABC0058C68E /* OMHHumanReadableDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMHHumanReadableDate.m; sourceTree = "<group>"; };
-		EEE8DB1C103DF29600195ECA /* ShortcutRecorder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShortcutRecorder.framework; path = Frameworks/ShortcutRecorder.framework; sourceTree = "<group>"; };
+		EE9803CD1171300C006A8E08 /* ShortcutRecorder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShortcutRecorder.framework; path = Frameworks/ShortcutRecorder.framework; sourceTree = "<group>"; };
+		EE9803CF1171300C006A8E08 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = Frameworks/Sparkle.framework; sourceTree = "<group>"; };
 		EEECB6740FAE1454004A596B /* AppController+CoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AppController+CoreData.h"; path = "Source/AppController+CoreData.h"; sourceTree = SOURCE_ROOT; };
 		EEECB6750FAE1454004A596B /* AppController+CoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AppController+CoreData.m"; path = "Source/AppController+CoreData.m"; sourceTree = SOURCE_ROOT; };
 		EEF418190F1D27A80037980E /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
@@ -169,10 +169,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE9803F71171304A006A8E08 /* ShortcutRecorder.framework in Frameworks */,
+				EE9803F81171304A006A8E08 /* Sparkle.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				EEF4181A0F1D27A80037980E /* Carbon.framework in Frameworks */,
-				EE4A93D40F1F8825007DE4BF /* Sparkle.framework in Frameworks */,
-				EEE8DB1D103DF29600195ECA /* ShortcutRecorder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +202,8 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EE9803CD1171300C006A8E08 /* ShortcutRecorder.framework */,
+				EE9803CF1171300C006A8E08 /* Sparkle.framework */,
 				EEF418190F1D27A80037980E /* Carbon.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
@@ -376,8 +378,6 @@
 		EEF417FD0F1D26D80037980E /* 3rd Party Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EE4A93D20F1F8825007DE4BF /* Sparkle.framework */,
-				EEE8DB1C103DF29600195ECA /* ShortcutRecorder.framework */,
 			);
 			name = "3rd Party Frameworks";
 			sourceTree = "<group>";
@@ -610,8 +610,6 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../frameworks/ShortCut Recorder/SR Leopard/build/Release\"",
-					"\"$(SRCROOT)/../../../frameworks/Sparkle with GC\"",
 					"\"$(SRCROOT)/Frameworks\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -634,8 +632,6 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../frameworks/ShortCut Recorder/SR Leopard/build/Release\"",
-					"\"$(SRCROOT)/../../../frameworks/Sparkle with GC\"",
 					"\"$(SRCROOT)/Frameworks\"",
 				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
