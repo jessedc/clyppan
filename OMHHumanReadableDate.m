@@ -43,8 +43,6 @@
 {
     // TODO: Add X months ago
     NSTimeInterval secondsSinceNow = [[NSDate date] timeIntervalSinceDate:date];
-    
-    NSLog( @"Seconds: %f", secondsSinceNow );
 
     // if date less than a minute return "less than a minute ago"
     if ( secondsSinceNow < MINUTE_IN_SECONDS )
@@ -81,7 +79,6 @@
     
     
     // if date less than a week ago return "x days ago"
-    
     return [date descriptionWithCalendarFormat:@"%Y-%m-%d %H:%M:%S" 
                                       timeZone:nil
                                         locale:[[NSUserDefaults standardUserDefaults] dictionaryRepresentation]];
