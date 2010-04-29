@@ -47,6 +47,7 @@
 		EE1429150F1D25BB002F1FE7 /* Clyppan.icns in Resources */ = {isa = PBXBuildFile; fileRef = EE1429100F1D25BB002F1FE7 /* Clyppan.icns */; };
 		EE19C4BC0FA4E07E000537FE /* OMHImageTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE19C4BB0FA4E07E000537FE /* OMHImageTextCell.m */; };
 		EE19C4E50FA4E5DA000537FE /* OMHGradientBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE19C4E40FA4E5DA000537FE /* OMHGradientBackgroundView.m */; };
+		EE25D40F118A2053008E3D8D /* Statusbar-highlighted.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EE25D40E118A2053008E3D8D /* Statusbar-highlighted.pdf */; };
 		EE29E998104087A700651640 /* OMHHumanReadableDateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EE29E997104087A700651640 /* OMHHumanReadableDateTest.m */; };
 		EE29E9A310408F0500651640 /* OMHHumanReadableDate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE87B5060FE58ABC0058C68E /* OMHHumanReadableDate.m */; };
 		EE3AA2250FAF8081002D747E /* 1.0.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* 1.0.xcdatamodel */; };
@@ -131,6 +132,7 @@
 		EE19C4BB0FA4E07E000537FE /* OMHImageTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMHImageTextCell.m; path = ../collections/Cells/OMHImageTextCell.m; sourceTree = SOURCE_ROOT; };
 		EE19C4E30FA4E5DA000537FE /* OMHGradientBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMHGradientBackgroundView.h; path = Source/OMHGradientBackgroundView.h; sourceTree = SOURCE_ROOT; };
 		EE19C4E40FA4E5DA000537FE /* OMHGradientBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMHGradientBackgroundView.m; path = Source/OMHGradientBackgroundView.m; sourceTree = SOURCE_ROOT; };
+		EE25D40E118A2053008E3D8D /* Statusbar-highlighted.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Statusbar-highlighted.pdf"; path = "Resources/Statusbar-highlighted.pdf"; sourceTree = SOURCE_ROOT; };
 		EE29E98F1040874500651640 /* Unit tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE29E9901040874500651640 /* Unit tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unit tests-Info.plist"; sourceTree = "<group>"; };
 		EE29E996104087A700651640 /* OMHHumanReadableDateTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMHHumanReadableDateTest.h; sourceTree = "<group>"; };
@@ -345,6 +347,7 @@
 		EE1429080F1D25A7002F1FE7 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				EE25D40E118A2053008E3D8D /* Statusbar-highlighted.pdf */,
 				EED4885B1189DF5B0085C906 /* Statusbar-inverted.pdf */,
 				EED4885C1189DF5B0085C906 /* Statusbar.pdf */,
 				EE71BC0A0F1F88E100F130A9 /* Shortcuts.png */,
@@ -460,6 +463,7 @@
 				EE5A54690F23DF3C00919974 /* dsa_pub.pem in Resources */,
 				EED4885D1189DF5B0085C906 /* Statusbar-inverted.pdf in Resources */,
 				EED4885E1189DF5B0085C906 /* Statusbar.pdf in Resources */,
+				EE25D40F118A2053008E3D8D /* Statusbar-highlighted.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
