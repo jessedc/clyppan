@@ -44,9 +44,7 @@
 		EE1429040F1D259A002F1FE7 /* OMHMainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1428F60F1D259A002F1FE7 /* OMHMainWindow.m */; };
 		EE1429050F1D259A002F1FE7 /* OMHQuickPreviewWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1428F90F1D259A002F1FE7 /* OMHQuickPreviewWindowController.m */; };
 		EE1429060F1D259A002F1FE7 /* OMHPreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1428FD0F1D259A002F1FE7 /* OMHPreferenceController.m */; };
-		EE1429120F1D25BB002F1FE7 /* clyppan-small-inverted.png in Resources */ = {isa = PBXBuildFile; fileRef = EE14290D0F1D25BB002F1FE7 /* clyppan-small-inverted.png */; };
 		EE1429150F1D25BB002F1FE7 /* Clyppan.icns in Resources */ = {isa = PBXBuildFile; fileRef = EE1429100F1D25BB002F1FE7 /* Clyppan.icns */; };
-		EE1429160F1D25BB002F1FE7 /* clyppan-small.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1429110F1D25BB002F1FE7 /* clyppan-small.png */; };
 		EE19C4BC0FA4E07E000537FE /* OMHImageTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE19C4BB0FA4E07E000537FE /* OMHImageTextCell.m */; };
 		EE19C4E50FA4E5DA000537FE /* OMHGradientBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE19C4E40FA4E5DA000537FE /* OMHGradientBackgroundView.m */; };
 		EE29E998104087A700651640 /* OMHHumanReadableDateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EE29E997104087A700651640 /* OMHHumanReadableDateTest.m */; };
@@ -71,6 +69,8 @@
 		EE9803F81171304A006A8E08 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9803CF1171300C006A8E08 /* Sparkle.framework */; };
 		EE9804C3117130DA006A8E08 /* ShortcutRecorder.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = EE9803CD1171300C006A8E08 /* ShortcutRecorder.framework */; };
 		EE9804C4117130DA006A8E08 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = EE9803CF1171300C006A8E08 /* Sparkle.framework */; };
+		EED4885D1189DF5B0085C906 /* Statusbar-inverted.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EED4885B1189DF5B0085C906 /* Statusbar-inverted.pdf */; };
+		EED4885E1189DF5B0085C906 /* Statusbar.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EED4885C1189DF5B0085C906 /* Statusbar.pdf */; };
 		EEECB6760FAE1454004A596B /* AppController+CoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = EEECB6750FAE1454004A596B /* AppController+CoreData.m */; };
 		EEF4181A0F1D27A80037980E /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF418190F1D27A80037980E /* Carbon.framework */; };
 /* End PBXBuildFile section */
@@ -126,9 +126,7 @@
 		EE1428FC0F1D259A002F1FE7 /* OMHClippingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMHClippingController.h; path = Source/OMHClippingController.h; sourceTree = "<group>"; };
 		EE1428FD0F1D259A002F1FE7 /* OMHPreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMHPreferenceController.m; path = Source/OMHPreferenceController.m; sourceTree = "<group>"; };
 		EE1428FE0F1D259A002F1FE7 /* OMHQuickPreviewWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMHQuickPreviewWindowController.h; path = Source/OMHQuickPreviewWindowController.h; sourceTree = "<group>"; };
-		EE14290D0F1D25BB002F1FE7 /* clyppan-small-inverted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clyppan-small-inverted.png"; path = "Resources/clyppan-small-inverted.png"; sourceTree = SOURCE_ROOT; };
 		EE1429100F1D25BB002F1FE7 /* Clyppan.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Clyppan.icns; path = Resources/Clyppan.icns; sourceTree = SOURCE_ROOT; };
-		EE1429110F1D25BB002F1FE7 /* clyppan-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clyppan-small.png"; path = "Resources/clyppan-small.png"; sourceTree = SOURCE_ROOT; };
 		EE19C4BA0FA4E07E000537FE /* OMHImageTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMHImageTextCell.h; path = ../collections/Cells/OMHImageTextCell.h; sourceTree = SOURCE_ROOT; };
 		EE19C4BB0FA4E07E000537FE /* OMHImageTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMHImageTextCell.m; path = ../collections/Cells/OMHImageTextCell.m; sourceTree = SOURCE_ROOT; };
 		EE19C4E30FA4E5DA000537FE /* OMHGradientBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMHGradientBackgroundView.h; path = Source/OMHGradientBackgroundView.h; sourceTree = SOURCE_ROOT; };
@@ -159,6 +157,8 @@
 		EE87B5060FE58ABC0058C68E /* OMHHumanReadableDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMHHumanReadableDate.m; sourceTree = "<group>"; };
 		EE9803CD1171300C006A8E08 /* ShortcutRecorder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShortcutRecorder.framework; path = Frameworks/ShortcutRecorder.framework; sourceTree = "<group>"; };
 		EE9803CF1171300C006A8E08 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = Frameworks/Sparkle.framework; sourceTree = "<group>"; };
+		EED4885B1189DF5B0085C906 /* Statusbar-inverted.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Statusbar-inverted.pdf"; path = "Resources/Statusbar-inverted.pdf"; sourceTree = SOURCE_ROOT; };
+		EED4885C1189DF5B0085C906 /* Statusbar.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Statusbar.pdf; path = Resources/Statusbar.pdf; sourceTree = SOURCE_ROOT; };
 		EEECB6740FAE1454004A596B /* AppController+CoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AppController+CoreData.h"; path = "Source/AppController+CoreData.h"; sourceTree = SOURCE_ROOT; };
 		EEECB6750FAE1454004A596B /* AppController+CoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AppController+CoreData.m"; path = "Source/AppController+CoreData.m"; sourceTree = SOURCE_ROOT; };
 		EEF418190F1D27A80037980E /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
@@ -345,12 +345,12 @@
 		EE1429080F1D25A7002F1FE7 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				EED4885B1189DF5B0085C906 /* Statusbar-inverted.pdf */,
+				EED4885C1189DF5B0085C906 /* Statusbar.pdf */,
 				EE71BC0A0F1F88E100F130A9 /* Shortcuts.png */,
 				EE71BC0B0F1F88E100F130A9 /* Update.tiff */,
 				EE4A90190F1E1A17007DE4BF /* Check.pdf */,
-				EE14290D0F1D25BB002F1FE7 /* clyppan-small-inverted.png */,
 				EE1429100F1D25BB002F1FE7 /* Clyppan.icns */,
-				EE1429110F1D25BB002F1FE7 /* clyppan-small.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -449,9 +449,7 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */,
-				EE1429120F1D25BB002F1FE7 /* clyppan-small-inverted.png in Resources */,
 				EE1429150F1D25BB002F1FE7 /* Clyppan.icns in Resources */,
-				EE1429160F1D25BB002F1FE7 /* clyppan-small.png in Resources */,
 				EE4A8F7A0F1E075B007DE4BF /* Preferences.xib in Resources */,
 				EE4A901A0F1E1A17007DE4BF /* Check.pdf in Resources */,
 				EE4A92060F1E83E9007DE4BF /* QuickPreview.xib in Resources */,
@@ -460,6 +458,8 @@
 				EE71BC0D0F1F88E100F130A9 /* Update.tiff in Resources */,
 				EE5A52C70F222C6400919974 /* StatusItemHelperWindow.xib in Resources */,
 				EE5A54690F23DF3C00919974 /* dsa_pub.pem in Resources */,
+				EED4885D1189DF5B0085C906 /* Statusbar-inverted.pdf in Resources */,
+				EED4885E1189DF5B0085C906 /* Statusbar.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

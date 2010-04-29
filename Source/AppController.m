@@ -129,7 +129,8 @@ const int AUTOSAVE_INTERVAL = 10*60;
     [statusItem setHighlightMode:YES];	 
     [statusItem setTarget:self];
     [statusItem setAction:@selector( statusMenuItemClicked )];       
-    [statusItem setImage:[NSImage imageNamed:@"clyppan-small"]];
+    [statusItem setImage:[NSImage imageNamed:@"Statusbar"]];
+	[statusItem setAlternateImage:[NSImage imageNamed:@"Statusbar-inverted"]];
 }
 
 
@@ -180,6 +181,7 @@ const int AUTOSAVE_INTERVAL = 10*60;
 
 - (void) flashStatusMenu
 {
+	return;
     [self.statusItem setImage:[NSImage imageNamed:@"clyppan-small-inverted"]];
     [self.statusItem performSelector:@selector( setImage: )
      withObject:[NSImage imageNamed:@"clyppan-small"]
