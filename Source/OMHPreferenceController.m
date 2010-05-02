@@ -144,7 +144,7 @@ static OMHPreferenceController *_sharedPrefsWindowController = nil;
         [defaults setObject:[NSNumber numberWithShort:keyCombo.code] forKey:OMHActivateAppKey];
         [defaults setObject:[NSNumber numberWithUnsignedInt:keyCombo.flags] forKey:OMHActivateAppModifierKey];        
 
-        [self tellDelegateShortcutDidChange:OMHShortcutRapidPasteId keyCombo:keyCombo];
+        [self tellDelegateShortcutDidChange:OMHShortcutActivateAppId keyCombo:keyCombo];
     }
     else if ( recorder == rapidPasteControl )
     {

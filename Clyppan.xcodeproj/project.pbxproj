@@ -53,6 +53,9 @@
 		EE3AA2250FAF8081002D747E /* 1.0.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* 1.0.xcdatamodel */; };
 		EE3FE3CF0F211B0E00B09105 /* OMHClipping.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3FE3CD0F211B0E00B09105 /* OMHClipping.m */; };
 		EE3FE4010F211EB000B09105 /* MAAttachedWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3FE4000F211EB000B09105 /* MAAttachedWindow.m */; };
+		EE42A456118DBFC60075AF4C /* OMHShortcutKeyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EE42A451118DBCE60075AF4C /* OMHShortcutKeyTest.m */; };
+		EE42A45E118DC1590075AF4C /* OMHShortcutKey.m in Sources */ = {isa = PBXBuildFile; fileRef = EE71BBFC0F1F88A200F130A9 /* OMHShortcutKey.m */; };
+		EE42A477118DC23C0075AF4C /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF418190F1D27A80037980E /* Carbon.framework */; };
 		EE4A8F7A0F1E075B007DE4BF /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE4A8F780F1E075B007DE4BF /* Preferences.xib */; };
 		EE4A901A0F1E1A17007DE4BF /* Check.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EE4A90190F1E1A17007DE4BF /* Check.pdf */; };
 		EE4A92060F1E83E9007DE4BF /* QuickPreview.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE4A92040F1E83E9007DE4BF /* QuickPreview.xib */; };
@@ -141,6 +144,8 @@
 		EE3FE3CE0F211B0E00B09105 /* OMHClipping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMHClipping.h; path = Source/OMHClipping.h; sourceTree = SOURCE_ROOT; };
 		EE3FE3FF0F211EB000B09105 /* MAAttachedWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MAAttachedWindow.h; path = ../collections/Views/MAAttachedWindow.h; sourceTree = SOURCE_ROOT; };
 		EE3FE4000F211EB000B09105 /* MAAttachedWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MAAttachedWindow.m; path = ../collections/Views/MAAttachedWindow.m; sourceTree = SOURCE_ROOT; };
+		EE42A450118DBCE60075AF4C /* OMHShortcutKeyTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMHShortcutKeyTest.h; path = ../collections/Shortcut/Tests/OMHShortcutKeyTest.h; sourceTree = SOURCE_ROOT; };
+		EE42A451118DBCE60075AF4C /* OMHShortcutKeyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMHShortcutKeyTest.m; path = ../collections/Shortcut/Tests/OMHShortcutKeyTest.m; sourceTree = SOURCE_ROOT; };
 		EE4A8F790F1E075B007DE4BF /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Preferences.xib; sourceTree = "<group>"; };
 		EE4A90190F1E1A17007DE4BF /* Check.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Check.pdf; path = Resources/Check.pdf; sourceTree = SOURCE_ROOT; };
 		EE4A92050F1E83E9007DE4BF /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/QuickPreview.xib; sourceTree = "<group>"; };
@@ -182,6 +187,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE42A477118DC23C0075AF4C /* Carbon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +369,8 @@
 			children = (
 				EE29E996104087A700651640 /* OMHHumanReadableDateTest.h */,
 				EE29E997104087A700651640 /* OMHHumanReadableDateTest.m */,
+				EE42A450118DBCE60075AF4C /* OMHShortcutKeyTest.h */,
+				EE42A451118DBCE60075AF4C /* OMHShortcutKeyTest.m */,
 			);
 			name = "Unit Tests";
 			sourceTree = "<group>";
@@ -551,6 +559,8 @@
 			files = (
 				EE29E998104087A700651640 /* OMHHumanReadableDateTest.m in Sources */,
 				EE29E9A310408F0500651640 /* OMHHumanReadableDate.m in Sources */,
+				EE42A456118DBFC60075AF4C /* OMHShortcutKeyTest.m in Sources */,
+				EE42A45E118DC1590075AF4C /* OMHShortcutKey.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
