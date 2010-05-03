@@ -15,7 +15,8 @@ To build Clyppan you need Xcode 3.1 and Leopard 10.5.6.
 
 Clone Clyppan and initialise the collections submodule:
 
-    git clone git://github.com/omh/clyppan.git
+    git clone git://github.com/omh/clyppan.git Clyppan
+	cd Clyppan
     git submodule init
 	git submodule update
 
