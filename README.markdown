@@ -13,18 +13,11 @@ To build Clyppan you need Xcode 3.1 and Leopard 10.5.6.
 
 ## Building
 
-Create a new directory and clone Clyppan and the Collections repository:
+Clone Clyppan and initialise the collections submodule:
 
-    mkdir clyppan-git
-    cd clyppan-git
     git clone git://github.com/omh/clyppan.git
-    git clone git://github.com/omh/collections.git
-
-After cloning you should have a directory structure like this:
-
-    clyppan-git
-      |-- clyppan
-      |-- collections
+    git submodule init
+	git submodule update
 
 Open Interface Builder, go to Preferences -> Plug-ins, click the + button, browse to `clyppan-git/clyppan/Frameworks/` and add the `ShortcutRecorder.ibplugin`.
 
@@ -35,7 +28,7 @@ To build open clyppan-git/clyppan/Clyppan.xcodeproj in Xcode and hit the build b
 
 All code, except where otherwise noted, is licensed under the New BSD license. 
 
-    Copyright (c) 2009, Ole Morten Halvorsen
+    Copyright (c) 2010, Ole Morten Halvorsen
     All rights reserved.
     
     Redistribution and use in source and binary forms, with or without modification, 
