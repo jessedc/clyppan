@@ -8,7 +8,7 @@ Clyppan is a Free and Open Source clipboard history application for Mac OS X tha
 
 ## Requirements
 
-To build Clyppan you need Xcode 3.1 and Leopard 10.5.6.
+To build Clyppan you need Xcode 3.2 and Snow Leopard 10.6.
 
 
 ## Building
@@ -22,7 +22,7 @@ Clone Clyppan and initialise the collections submodule:
 
 Open Interface Builder, go to Preferences -> Plug-ins, click the + button, browse to `clyppan-git/clyppan/Frameworks/` and add the `ShortcutRecorder.ibplugin`.
 
-To build open clyppan-git/clyppan/Clyppan.xcodeproj in Xcode and hit the build button.
+To build open Clyppan/Clyppan.xcodeproj in Xcode and hit the build button.
 
 
 # License
