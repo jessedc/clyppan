@@ -1,6 +1,10 @@
+# Not longer updated
+
+This version of Clyppan is no longer updated or mainted. Please visit the [Mac App Store][] to find the latest version of Clyppan.
+
 # About
 
-Clyppan is a Free and Open Source clipboard history application for Mac OS X that's always at your fingertips.
+Clyppan is a clipboard manager for Mac OS X that's always at your fingertips.
 
 ![screenshot!](http://www.omh.cc/media/images/Picture_1_post.png)
 
@@ -53,3 +57,5 @@ All code, except where otherwise noted, is licensed under the New BSD license.
     THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
     OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF 
     THE POSSIBILITY OF SUCH DAMAGE.
+
+[Mac App Store]: http://itunes.apple.com/gb/app/clyppan/id412728586?mt=12
